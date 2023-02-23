@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia cesar</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+    }
+    .container{
+        margin: 50px 50px 10px 50px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>
+            Criptografia cesar
+        </h1><br>
+        <div>
+            <label for="texto">Ingrese el numero de espacios:&nbsp;</label>
+            <input type="number" id="num" min="0">
+        </div><br>
+        <div>
+            <label for="texto">Ingrese el texto:&nbsp;</label>
+            <input type="text" id="texto">
+        </div><br>
+        <div>
+            <input type="button" value="Encriptar" id="botonE">
+            <input type="button" value="Desencriptar" id="botonD">
+        </div><br>
+        <div>
+            <p>Resultado: <span id="resultado"></span></p>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
